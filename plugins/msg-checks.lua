@@ -15,7 +15,7 @@ local auto_leave = 'auto_leave_bot'
     if msg.text then
   if msg.text:match("(.*)") then
     if not data[tostring(msg.to.id)] and not redis:get(auto_leave) and not is_admin(msg) then
-  tdcli.sendMessage(msg.to.id, "", 0, "لطفا برای خرید گروه با پشتبانی تماس بگیرید:\n@So8eil\n@SoHeilDktaBot\n@PartTeam", 0, "md")
+  tdcli.sendMessage(msg.to.id, "", 0, "لطفا برای خرید گروه با پشتبانی تماس بگیرید:\n@Boysmokeram\n@BrayneChatBot\n@BrayneTeam", 0, "md")
   tdcli.changeChatMemberStatus(chat, our_id, 'Left', dl_cb, nil)
       end
    end
@@ -962,4 +962,4 @@ return {
 	patterns = {},
 	pre_process = pre_process
 }
---BY: @So8eil
+--BY: @boysmokeram
