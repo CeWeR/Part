@@ -6,7 +6,7 @@
  
 Installation
 ```sh
-git clone https://github.com/SoHeil-R/Part.git
+git clone https://github.com/CeWeR/Part.git
 cd Part
 chmod +x launch.sh
 ./launch.sh install
